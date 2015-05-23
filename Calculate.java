@@ -6,7 +6,9 @@ public class Calculate {
 		
 		double third = Double.valueOf(args[2]);
 		float fourth = Float.valueOf(args[3]);
-		
+		short fifth = Short.valueOf(args[4]);
+		long sixth = Long.valueOf(args[5]);
+				
 		int sum = first + second;
 		int minus = first - second;
 		int mult = first * second;
@@ -17,8 +19,13 @@ public class Calculate {
 		System.out.println("mult =" + mult);
 		System.out.println("divide = " + divide);
 
-		int fifth = (int) Math.pow(third,fourth);
-		System.out.println(fifth);
+		int seventh = (int) Math.pow(third,fourth);
+		System.out.println(seventh);
+		
+		int eighth = (int) Math.pow(fifth,sixth);
+		System.out.println(eighth);
+
+		
 		
 		
 		
